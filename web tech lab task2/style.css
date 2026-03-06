@@ -1,0 +1,56 @@
+body {
+  background-color: aquamarine;
+}
+
+h1 {
+  color: blue;
+  font-size: 56px;
+  font-family: Cambria, Cochin, Georgia, Times, serif;
+  font-style: italic;
+  text-align: center;
+}
+
+label {
+  font-size: 14px;
+  font-weight: bold;
+  font-family: Arial, sans-serif;
+  color: black;
+}
+
+form {
+  width: 700px;
+  margin: 0 auto;
+  padding: 50px;
+  background-color: white;
+  border: 10px solid blue;
+  border-radius: 20px;
+}
+
+input[type="text"],
+input[type="number"],
+textarea {
+  color: black;
+  margin: 10px 0;
+  padding: 10px;
+  width: 300px; /* Adjusted for two-column table layout */
+}
+
+textarea {
+  width: 630px; /* Span across both columns */
+}
+
+#submit {
+  background-color: #1a3a3a;
+  color: white;
+  padding: 15px 40px;
+  border: none;
+  cursor: pointer;
+  display: block;
+  margin: 0 auto;
+}
+
+p {
+  color: red;
+  font-size: 12px;
+  margin: 0;
+}
