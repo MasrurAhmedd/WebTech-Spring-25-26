@@ -3,28 +3,19 @@ function calculate_total() {
     let quantity = document.getElementById("Quantity").value;
     let displayTotal = document.getElementById("TotalPrice");
 
-<<<<<<< HEAD:Lab Performancee_MID/JS/Validation.script.js
-=======
     
->>>>>>> 6c6da47645d95865cbb65b17000f2062d0ea3dd2:Lab Performancee_MID/Sscript.js
     if (quantity < 0) {
         alert("Quantity cannot be negative. Resetting to 0.");
         document.getElementById("Quantity").value = 0;
         quantity = 0;
     }
 
-<<<<<<< HEAD:Lab Performancee_MID/JS/Validation.script.js
-    let total = unitPrice * quantity * 30;
-    displayTotal.value = total;
-
-=======
     
     
     let total = unitPrice * quantity * 30;
     displayTotal.value = total;
 
     
->>>>>>> 6c6da47645d95865cbb65b17000f2062d0ea3dd2:Lab Performancee_MID/Sscript.js
     if (total > 1000) {
         alert("Congratulations! You are eligible for a gift coupon.");
     }
