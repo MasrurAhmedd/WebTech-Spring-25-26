@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="eng">
+<title> Product Management Page </title>
+<body>
+<link rel="stylesheet" href="Sstyle.css">
+<script src="Sscript.js"></script>
+
+<div class="header">
+    <h1> Product Management Page </h1>
+</div>
+
+<form>
+<fieldset>
+<legend> Product Management Page </legend>
+
+<label for="UnitPrice">Unit Price:</label><br>
+<input type="number" id="UnitPrice" name="UnitPrice" value="1000" readonly>
+<br><br>
+
+<label for="Quantity">Quantity per Day:</label><br>
+<input type="number" id="Quantity" name="Quantity" placeholder="Enter quantity per day" oninput="calculate_total()">
+<br><br>
+
+<label for="TotalPrice">Total Price for 30 Days:</label><br>
+<input type="number" id="TotalPrice" name="TotalPrice" value="0" readonly>
+<br><br>
+
+</fieldset>
+</form>
+</body>
+</html>
